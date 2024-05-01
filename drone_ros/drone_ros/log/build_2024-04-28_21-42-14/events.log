@@ -1,0 +1,45 @@
+[0.000000] (-) TimerEvent: {}
+[0.000365] (dronecomm) JobQueued: {'identifier': 'dronecomm', 'dependencies': OrderedDict()}
+[0.000568] (dronecomm) JobStarted: {'identifier': 'dronecomm'}
+[0.098648] (-) TimerEvent: {}
+[0.198973] (-) TimerEvent: {}
+[0.299300] (-) TimerEvent: {}
+[0.399645] (-) TimerEvent: {}
+[0.499960] (-) TimerEvent: {}
+[0.600279] (-) TimerEvent: {}
+[0.700641] (-) TimerEvent: {}
+[0.801003] (-) TimerEvent: {}
+[0.901277] (-) TimerEvent: {}
+[1.001632] (-) TimerEvent: {}
+[1.022796] (dronecomm) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dronecomm', 'build', '--build-base', '/home/drone/Desktop/drone_ros/build/dronecomm/build', 'install', '--record', '/home/drone/Desktop/drone_ros/build/dronecomm/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/drone/Desktop/drone_ros/src/dronecomm', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'drone', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/drone', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '6325', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus,guid=51410a34144d0d2caa456bbc662ebd53', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/drone/Desktop/drone_ros/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'drone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'drone', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/novell/iprint/bin', 'SESSION_MANAGER': 'local/dev-Latitude-7280:@/tmp/.ICE-unix/6325,unix/dev-Latitude-7280:/tmp/.ICE-unix/6325', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/71c82794_108b_4f2c_ada6_b2feada53c0f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/.mutter-Xwaylandauth.VHNWM2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.140', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/drone/Desktop/drone_ros/install/dronecomm:/opt/ros/iron', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/drone/Desktop/drone_ros/build/dronecomm', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1001/bus,guid=51410a34144d0d2caa456bbc662ebd53', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drone/Desktop/drone_ros/build/dronecomm/prefix_override:/home/drone/Desktop/drone_ros/install/dronecomm/lib/python3.10/site-packages:/home/drone/Desktop/drone_ros/install/dronecomm/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'MANPATH': ':/opt/novell/man', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.101750] (-) TimerEvent: {}
+[1.202067] (-) TimerEvent: {}
+[1.302376] (-) TimerEvent: {}
+[1.402686] (-) TimerEvent: {}
+[1.431776] (dronecomm) StdoutLine: {'line': b'running egg_info\n'}
+[1.433330] (dronecomm) StdoutLine: {'line': b'writing ../../build/dronecomm/dronecomm.egg-info/PKG-INFO\n'}
+[1.433660] (dronecomm) StdoutLine: {'line': b'writing dependency_links to ../../build/dronecomm/dronecomm.egg-info/dependency_links.txt\n'}
+[1.433923] (dronecomm) StdoutLine: {'line': b'writing entry points to ../../build/dronecomm/dronecomm.egg-info/entry_points.txt\n'}
+[1.434112] (dronecomm) StdoutLine: {'line': b'writing requirements to ../../build/dronecomm/dronecomm.egg-info/requires.txt\n'}
+[1.434305] (dronecomm) StdoutLine: {'line': b'writing top-level names to ../../build/dronecomm/dronecomm.egg-info/top_level.txt\n'}
+[1.437465] (dronecomm) StdoutLine: {'line': b"reading manifest file '../../build/dronecomm/dronecomm.egg-info/SOURCES.txt'\n"}
+[1.438819] (dronecomm) StdoutLine: {'line': b"writing manifest file '../../build/dronecomm/dronecomm.egg-info/SOURCES.txt'\n"}
+[1.439156] (dronecomm) StdoutLine: {'line': b'running build\n'}
+[1.439410] (dronecomm) StdoutLine: {'line': b'running build_py\n'}
+[1.439605] (dronecomm) StdoutLine: {'line': b'copying dronecomm/flight.py -> /home/drone/Desktop/drone_ros/build/dronecomm/build/lib/dronecomm\n'}
+[1.439866] (dronecomm) StdoutLine: {'line': b'running install\n'}
+[1.440492] (dronecomm) StdoutLine: {'line': b'running install_lib\n'}
+[1.441496] (dronecomm) StdoutLine: {'line': b'copying /home/drone/Desktop/drone_ros/build/dronecomm/build/lib/dronecomm/flight.py -> /home/drone/Desktop/drone_ros/install/dronecomm/lib/python3.10/site-packages/dronecomm\n'}
+[1.442522] (dronecomm) StdoutLine: {'line': b'byte-compiling /home/drone/Desktop/drone_ros/install/dronecomm/lib/python3.10/site-packages/dronecomm/flight.py to flight.cpython-310.pyc\n'}
+[1.443919] (dronecomm) StdoutLine: {'line': b'running install_data\n'}
+[1.444256] (dronecomm) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.447226] (dronecomm) StdoutLine: {'line': b"removing '/home/drone/Desktop/drone_ros/install/dronecomm/lib/python3.10/site-packages/dronecomm-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.447727] (dronecomm) StdoutLine: {'line': b'Copying ../../build/dronecomm/dronecomm.egg-info to /home/drone/Desktop/drone_ros/install/dronecomm/lib/python3.10/site-packages/dronecomm-0.0.0-py3.10.egg-info\n'}
+[1.449086] (dronecomm) StdoutLine: {'line': b'running install_scripts\n'}
+[1.475814] (dronecomm) StdoutLine: {'line': b'Installing publisher script to /home/drone/Desktop/drone_ros/install/dronecomm/lib/dronecomm\n'}
+[1.476106] (dronecomm) StdoutLine: {'line': b'Installing subscriber script to /home/drone/Desktop/drone_ros/install/dronecomm/lib/dronecomm\n'}
+[1.476582] (dronecomm) StdoutLine: {'line': b"writing list of installed files to '/home/drone/Desktop/drone_ros/build/dronecomm/install.log'\n"}
+[1.502804] (-) TimerEvent: {}
+[1.508437] (dronecomm) CommandEnded: {'returncode': 0}
+[1.522589] (dronecomm) JobEnded: {'identifier': 'dronecomm', 'rc': 0}
+[1.523673] (-) EventReactorShutdown: {}

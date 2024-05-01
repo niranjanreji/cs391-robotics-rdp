@@ -1,0 +1,5 @@
+[console_scripts]
+flight = dronecomm.flight:main
+publisher = dronecomm.publisher:main
+subscriber = dronecomm.subscriber:main
+

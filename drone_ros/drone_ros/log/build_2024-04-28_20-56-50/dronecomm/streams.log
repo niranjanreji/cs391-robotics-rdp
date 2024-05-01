@@ -1,0 +1,25 @@
+[0.973s] Invoking command in '/home/drone/Desktop/drone_ros/src/dronecomm': PYTHONPATH=/home/drone/Desktop/drone_ros/build/dronecomm/prefix_override:/home/drone/Desktop/drone_ros/install/dronecomm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dronecomm build --build-base /home/drone/Desktop/drone_ros/build/dronecomm/build install --record /home/drone/Desktop/drone_ros/build/dronecomm/install.log --single-version-externally-managed install_data
+[1.360s] running egg_info
+[1.361s] writing ../../build/dronecomm/dronecomm.egg-info/PKG-INFO
+[1.362s] writing dependency_links to ../../build/dronecomm/dronecomm.egg-info/dependency_links.txt
+[1.362s] writing entry points to ../../build/dronecomm/dronecomm.egg-info/entry_points.txt
+[1.362s] writing requirements to ../../build/dronecomm/dronecomm.egg-info/requires.txt
+[1.363s] writing top-level names to ../../build/dronecomm/dronecomm.egg-info/top_level.txt
+[1.366s] reading manifest file '../../build/dronecomm/dronecomm.egg-info/SOURCES.txt'
+[1.367s] writing manifest file '../../build/dronecomm/dronecomm.egg-info/SOURCES.txt'
+[1.368s] running build
+[1.368s] running build_py
+[1.368s] copying dronecomm/publisher.py -> /home/drone/Desktop/drone_ros/build/dronecomm/build/lib/dronecomm
+[1.368s] running install
+[1.369s] running install_lib
+[1.370s] copying /home/drone/Desktop/drone_ros/build/dronecomm/build/lib/dronecomm/publisher.py -> /home/drone/Desktop/drone_ros/install/dronecomm/lib/python3.10/site-packages/dronecomm
+[1.371s] byte-compiling /home/drone/Desktop/drone_ros/install/dronecomm/lib/python3.10/site-packages/dronecomm/publisher.py to publisher.cpython-310.pyc
+[1.373s] running install_data
+[1.373s] copying package.xml -> /home/drone/Desktop/drone_ros/install/dronecomm/share/dronecomm
+[1.373s] running install_egg_info
+[1.376s] removing '/home/drone/Desktop/drone_ros/install/dronecomm/lib/python3.10/site-packages/dronecomm-0.0.0-py3.10.egg-info' (and everything under it)
+[1.376s] Copying ../../build/dronecomm/dronecomm.egg-info to /home/drone/Desktop/drone_ros/install/dronecomm/lib/python3.10/site-packages/dronecomm-0.0.0-py3.10.egg-info
+[1.378s] running install_scripts
+[1.403s] Installing publisher script to /home/drone/Desktop/drone_ros/install/dronecomm/lib/dronecomm
+[1.403s] writing list of installed files to '/home/drone/Desktop/drone_ros/build/dronecomm/install.log'
+[1.435s] Invoked command in '/home/drone/Desktop/drone_ros/src/dronecomm' returned '0': PYTHONPATH=/home/drone/Desktop/drone_ros/build/dronecomm/prefix_override:/home/drone/Desktop/drone_ros/install/dronecomm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dronecomm build --build-base /home/drone/Desktop/drone_ros/build/dronecomm/build install --record /home/drone/Desktop/drone_ros/build/dronecomm/install.log --single-version-externally-managed install_data

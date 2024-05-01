@@ -1,0 +1,5 @@
+  File "/home/drone/Desktop/drone_ros/install/dronecomm/lib/python3.10/site-packages/dronecomm/publisher.py", line 12
+    	bool status = True
+    	     ^^^^^^
+SyntaxError: invalid syntax
+
